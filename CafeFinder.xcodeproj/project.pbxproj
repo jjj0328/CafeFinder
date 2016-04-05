@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B72529591CB3B11500BD1987 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B72529581CB3B11500BD1987 /* main.m */; };
+		B725295C1CB3B11500BD1987 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B725295B1CB3B11500BD1987 /* AppDelegate.m */; };
+		B725295F1CB3B11500BD1987 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B725295E1CB3B11500BD1987 /* ViewController.m */; };
+		B72529621CB3B11500BD1987 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B72529601CB3B11500BD1987 /* Main.storyboard */; };
+		B72529641CB3B11500BD1987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B72529631CB3B11500BD1987 /* Assets.xcassets */; };
+		B72529671CB3B11500BD1987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B72529651CB3B11500BD1987 /* LaunchScreen.storyboard */; };
+		B72529721CB3B11500BD1987 /* CafeFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B72529711CB3B11500BD1987 /* CafeFinderTests.m */; };
+		B725297D1CB3B11500BD1987 /* CafeFinderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B725297C1CB3B11500BD1987 /* CafeFinderUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B725296E1CB3B11500BD1987 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B725294C1CB3B11500BD1987 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B72529531CB3B11500BD1987;
+			remoteInfo = CafeFinder;
+		};
+		B72529791CB3B11500BD1987 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B725294C1CB3B11500BD1987 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B72529531CB3B11500BD1987;
+			remoteInfo = CafeFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B72529541CB3B11500BD1987 /* CafeFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CafeFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B72529581CB3B11500BD1987 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B725295A1CB3B11500BD1987 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B725295B1CB3B11500BD1987 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B725295D1CB3B11500BD1987 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B725295E1CB3B11500BD1987 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B72529611CB3B11500BD1987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B72529631CB3B11500BD1987 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B72529661CB3B11500BD1987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B72529681CB3B11500BD1987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B725296D1CB3B11500BD1987 /* CafeFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CafeFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B72529711CB3B11500BD1987 /* CafeFinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CafeFinderTests.m; sourceTree = "<group>"; };
+		B72529731CB3B11500BD1987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B72529781CB3B11500BD1987 /* CafeFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CafeFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B725297C1CB3B11500BD1987 /* CafeFinderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CafeFinderUITests.m; sourceTree = "<group>"; };
+		B725297E1CB3B11500BD1987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B72529511CB3B11500BD1987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B725296A1CB3B11500BD1987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B72529751CB3B11500BD1987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B725294B1CB3B11500BD1987 = {
+			isa = PBXGroup;
+			children = (
+				B72529561CB3B11500BD1987 /* CafeFinder */,
+				B72529701CB3B11500BD1987 /* CafeFinderTests */,
+				B725297B1CB3B11500BD1987 /* CafeFinderUITests */,
+				B72529551CB3B11500BD1987 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B72529551CB3B11500BD1987 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B72529541CB3B11500BD1987 /* CafeFinder.app */,
+				B725296D1CB3B11500BD1987 /* CafeFinderTests.xctest */,
+				B72529781CB3B11500BD1987 /* CafeFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B72529561CB3B11500BD1987 /* CafeFinder */ = {
+			isa = PBXGroup;
+			children = (
+				B725295A1CB3B11500BD1987 /* AppDelegate.h */,
+				B725295B1CB3B11500BD1987 /* AppDelegate.m */,
+				B725295D1CB3B11500BD1987 /* ViewController.h */,
+				B725295E1CB3B11500BD1987 /* ViewController.m */,
+				B72529601CB3B11500BD1987 /* Main.storyboard */,
+				B72529631CB3B11500BD1987 /* Assets.xcassets */,
+				B72529651CB3B11500BD1987 /* LaunchScreen.storyboard */,
+				B72529681CB3B11500BD1987 /* Info.plist */,
+				B72529571CB3B11500BD1987 /* Supporting Files */,
+			);
+			path = CafeFinder;
+			sourceTree = "<group>";
+		};
+		B72529571CB3B11500BD1987 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B72529581CB3B11500BD1987 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B72529701CB3B11500BD1987 /* CafeFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				B72529711CB3B11500BD1987 /* CafeFinderTests.m */,
+				B72529731CB3B11500BD1987 /* Info.plist */,
+			);
+			path = CafeFinderTests;
+			sourceTree = "<group>";
+		};
+		B725297B1CB3B11500BD1987 /* CafeFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B725297C1CB3B11500BD1987 /* CafeFinderUITests.m */,
+				B725297E1CB3B11500BD1987 /* Info.plist */,
+			);
+			path = CafeFinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B72529531CB3B11500BD1987 /* CafeFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B72529811CB3B11500BD1987 /* Build configuration list for PBXNativeTarget "CafeFinder" */;
+			buildPhases = (
+				B72529501CB3B11500BD1987 /* Sources */,
+				B72529511CB3B11500BD1987 /* Frameworks */,
+				B72529521CB3B11500BD1987 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CafeFinder;
+			productName = CafeFinder;
+			productReference = B72529541CB3B11500BD1987 /* CafeFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B725296C1CB3B11500BD1987 /* CafeFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B72529841CB3B11500BD1987 /* Build configuration list for PBXNativeTarget "CafeFinderTests" */;
+			buildPhases = (
+				B72529691CB3B11500BD1987 /* Sources */,
+				B725296A1CB3B11500BD1987 /* Frameworks */,
+				B725296B1CB3B11500BD1987 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B725296F1CB3B11500BD1987 /* PBXTargetDependency */,
+			);
+			name = CafeFinderTests;
+			productName = CafeFinderTests;
+			productReference = B725296D1CB3B11500BD1987 /* CafeFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B72529771CB3B11500BD1987 /* CafeFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B72529871CB3B11500BD1987 /* Build configuration list for PBXNativeTarget "CafeFinderUITests" */;
+			buildPhases = (
+				B72529741CB3B11500BD1987 /* Sources */,
+				B72529751CB3B11500BD1987 /* Frameworks */,
+				B72529761CB3B11500BD1987 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B725297A1CB3B11500BD1987 /* PBXTargetDependency */,
+			);
+			name = CafeFinderUITests;
+			productName = CafeFinderUITests;
+			productReference = B72529781CB3B11500BD1987 /* CafeFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B725294C1CB3B11500BD1987 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jiajia Jiang";
+				TargetAttributes = {
+					B72529531CB3B11500BD1987 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					B725296C1CB3B11500BD1987 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B72529531CB3B11500BD1987;
+					};
+					B72529771CB3B11500BD1987 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B72529531CB3B11500BD1987;
+					};
+				};
+			};
+			buildConfigurationList = B725294F1CB3B11500BD1987 /* Build configuration list for PBXProject "CafeFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B725294B1CB3B11500BD1987;
+			productRefGroup = B72529551CB3B11500BD1987 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B72529531CB3B11500BD1987 /* CafeFinder */,
+				B725296C1CB3B11500BD1987 /* CafeFinderTests */,
+				B72529771CB3B11500BD1987 /* CafeFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B72529521CB3B11500BD1987 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72529671CB3B11500BD1987 /* LaunchScreen.storyboard in Resources */,
+				B72529641CB3B11500BD1987 /* Assets.xcassets in Resources */,
+				B72529621CB3B11500BD1987 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B725296B1CB3B11500BD1987 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B72529761CB3B11500BD1987 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B72529501CB3B11500BD1987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B725295F1CB3B11500BD1987 /* ViewController.m in Sources */,
+				B725295C1CB3B11500BD1987 /* AppDelegate.m in Sources */,
+				B72529591CB3B11500BD1987 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B72529691CB3B11500BD1987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72529721CB3B11500BD1987 /* CafeFinderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B72529741CB3B11500BD1987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B725297D1CB3B11500BD1987 /* CafeFinderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B725296F1CB3B11500BD1987 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B72529531CB3B11500BD1987 /* CafeFinder */;
+			targetProxy = B725296E1CB3B11500BD1987 /* PBXContainerItemProxy */;
+		};
+		B725297A1CB3B11500BD1987 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B72529531CB3B11500BD1987 /* CafeFinder */;
+			targetProxy = B72529791CB3B11500BD1987 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B72529601CB3B11500BD1987 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B72529611CB3B11500BD1987 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B72529651CB3B11500BD1987 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B72529661CB3B11500BD1987 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B725297F1CB3B11500BD1987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B72529801CB3B11500BD1987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B72529821CB3B11500BD1987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CafeFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjj.CafeFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B72529831CB3B11500BD1987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CafeFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjj.CafeFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B72529851CB3B11500BD1987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CafeFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjj.CafeFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CafeFinder.app/CafeFinder";
+			};
+			name = Debug;
+		};
+		B72529861CB3B11500BD1987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CafeFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjj.CafeFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CafeFinder.app/CafeFinder";
+			};
+			name = Release;
+		};
+		B72529881CB3B11500BD1987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CafeFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjj.CafeFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CafeFinder;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B72529891CB3B11500BD1987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CafeFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjj.CafeFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CafeFinder;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B725294F1CB3B11500BD1987 /* Build configuration list for PBXProject "CafeFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B725297F1CB3B11500BD1987 /* Debug */,
+				B72529801CB3B11500BD1987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B72529811CB3B11500BD1987 /* Build configuration list for PBXNativeTarget "CafeFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B72529821CB3B11500BD1987 /* Debug */,
+				B72529831CB3B11500BD1987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B72529841CB3B11500BD1987 /* Build configuration list for PBXNativeTarget "CafeFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B72529851CB3B11500BD1987 /* Debug */,
+				B72529861CB3B11500BD1987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B72529871CB3B11500BD1987 /* Build configuration list for PBXNativeTarget "CafeFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B72529881CB3B11500BD1987 /* Debug */,
+				B72529891CB3B11500BD1987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B725294C1CB3B11500BD1987 /* Project object */;
+}
